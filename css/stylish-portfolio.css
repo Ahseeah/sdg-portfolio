@@ -375,3 +375,84 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+* .masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/my-header.JPG");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/my-header.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mb-1,
+.mb-5 {
+  color: #f1877f;
+}
+
+.bg-primary {
+  background-color: #f1877f;
+}
+
+.portfolio-item:hover .caption {
+  background-color: #6c5eae;
+  -webkit-clip-path: inset(2rem);
+  clip-path: inset(2rem);
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: 7f59ac;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #f1877f;
+  text-decoration: none;
+}
+
+a {
+  color: #f1877f;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #5b2f8d;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #6c5eae;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-faded {
+  color: rgba(199, 188, 193, 0.7);
+}
